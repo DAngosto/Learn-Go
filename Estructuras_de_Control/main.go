@@ -41,4 +41,29 @@ func main() {
 
 	fmt.Println("Fin del programa")
 
+	//Estructuras de Control: switch
+
+	var dia int
+	fmt.Println("introduce el numero del dia de la semana")
+	fmt.Scanln(&dia)
+
+	switch dia {
+	case 1:
+		fmt.Println("Introdujiste el Lunes")
+	case 2:
+		fmt.Println("Introdujiste el Martes")
+	case 3:
+		fmt.Println("Introdujiste el Miercoles")
+	case 4:
+		fmt.Println("Introdujiste el Jueves")
+	case 5:
+		fmt.Println("Introdujiste el Viernes")
+	case 6:
+		fmt.Println("Introdujiste el Sabado")
+	case 7:
+		fmt.Println("Introdujiste el Domingo")
+	default:
+		fmt.Println("Número introducido no valido")
+	}
+
 }
