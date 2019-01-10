@@ -39,8 +39,6 @@ func main() {
 		fmt.Println("a es igual 6")
 	}
 
-	fmt.Println("Fin del programa")
-
 	//Estructuras de Control: switch
 
 	var dia int
@@ -65,5 +63,7 @@ func main() {
 	default:
 		fmt.Println("Número introducido no valido")
 	}
+
+	fmt.Println("Fin del programa")
 
 }
